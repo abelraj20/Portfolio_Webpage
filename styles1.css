@@ -1,0 +1,45 @@
+body {
+    text-align: left;
+    height: 2500px;
+}
+.contents1 {
+    position: fixed;
+    top: 12px;
+    left: 250px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+    z-index: 1;
+    transition: transform 0.5s;
+}
+.contents1:hover{
+    transform: scale(1.2);
+}
+.heading1 {
+    position: absolute;
+    top: 785px;
+    left: 10%;
+    font-family: 'Abril Fatface';
+}
+.paragraph1 {
+    position: absolute;
+    top: 875px;
+    left: 1%;
+    font-family: 'Lato';
+}
+.paragraph2 {
+    position: absolute;
+    top: 975px;
+    left: 1%;
+    font-family: 'Lato';
+}
+.babyabel_img {
+    position: absolute;
+    top: 750px;
+    right: 150px;
+    width: 300px; /* Set a specific width for the image */
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
