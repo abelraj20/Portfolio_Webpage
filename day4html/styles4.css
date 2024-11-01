@@ -1,0 +1,458 @@
+body {
+    text-align: left;
+    height: 4000px;
+}
+#Aboutme {
+    scroll-margin-top: 181px;
+}
+#MyProjects {
+    scroll-margin-top: 190px;
+}
+#Skills {
+    scroll-margin-top: 207px;
+}
+.Home{
+    font-size: 55px;
+    position: fixed;
+    text-decoration: none;
+    top: -13px;
+    left: 53px;
+    color: Black;
+    font-family: 'Jokerman';
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.Home:hover{
+    transform: scale(1.2);
+}
+.contents1 {
+    position: fixed;
+    top: 15px;
+    left: 205px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.contents1:hover{
+    transform: scale(1.2);
+}
+.contents2 {
+    position: fixed;
+    top: 15px;
+    left: 380px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.contents2:hover{
+    transform: scale(1.2);
+}
+.contents3 {
+    position: fixed;
+    top: 15px;
+    left: 580px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.contents3:hover{
+    transform: scale(1.2);
+}
+.contents4 {
+    position: fixed;
+    top: 15px;
+    left: 730px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.contents4:hover{
+    transform: scale(1.2);
+}
+.background_circle1 {
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    width: 55vw;
+    border-radius: 45%;
+    height: 450px;
+    rotate: 55deg;
+    background-color: lightgreen;
+    z-index: -1;
+}
+.background_circle2 {
+    position: absolute;
+    top: 425px;
+    right: 150px;
+    width: 45vw;
+    border-radius: 45%;
+    height: 350px;
+    rotate: -40deg;
+    background-color: lightgreen;
+    z-index: -1;
+}
+.background_circle3 {
+    position: absolute;
+    top: 210px;
+    right: 350px;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    background-color: lightgray;
+    z-index: -1;
+}
+.background_circle4 {
+    position: absolute;
+    top: 595px;
+    right: 1025px;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    background-color: lightgray;
+    z-index: -1;
+}
+.mainbackground1 {
+    position: absolute;
+    top: 668px;
+    left: 0;
+    width: 100vw;
+    height: 600px;
+    background-color: lightgray;
+    z-index: -1;
+}
+.mainbackground2 {
+    position: absolute;
+    top: 1400px;
+    left: 0;
+    width: 100vw;
+    height: 750px;
+    background-color: lightgreen;
+    z-index: -1;
+}
+.mainbackground3 {
+    position: absolute;
+    top: 2282px;
+    left: 0;
+    width: 100vw;
+    height: 590px;
+    background-color: beige;
+    z-index: -1;
+}
+.blackborder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    z-index: 9;
+}
+.whitecircle {
+    position: fixed;
+    top: 5px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    z-index: 9;
+}
+.heading1 {
+    font-size: 36px;
+    position: relative;
+}
+.word1 {
+    position: absolute;
+    top: 230px;
+    left: 75px;
+}
+.word2 {
+    position: absolute;
+    top: 270px;
+    left: 250px;
+}
+.heading2 {
+    font-size: 36px;
+    position: relative;
+}
+.word3 {
+    position: absolute;
+    top: 410px;
+    right: 100px;
+}
+.word4 {
+    position: absolute;
+    top: 450px;
+    right: 200px;
+}
+.heading3 {
+    position: absolute;
+    top: 760px;
+    left: 15%;
+    font-size: 45px;
+    font-family: 'Abril Fatface';
+}
+.paragraph1 {
+    position: absolute;
+    top: 875px;
+    left: 2%;
+    font-family: 'Lato';
+}
+.paragraph2 {
+    position: absolute;
+    top: 975px;
+    left: 2%;
+    font-family: 'Lato';
+}
+.heading4 {
+    position: absolute;
+    top: 1500px;
+    right: 15%;
+    font-size: 45px;
+    font-family: 'Abril Fatface';
+}
+.paragraph3 {
+    text-align: left;
+    position: absolute;
+    top: 1617px;
+    left: 48%;
+    font-family: 'Lato'
+}
+.bulletpoint li {
+    display: inline;
+    margin-right: 0px;
+}
+.heading5 {
+    position: absolute;
+    top: 2399px;
+    left: 46%;
+    font-size: 45px;
+    font-family: 'Abril Fatface';
+}
+.description1 {
+    position: absolute;
+    top: 2660px;
+    right: 93.2%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description2 {
+    position: absolute;
+    top: 2660px;
+    right: 79.1%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description3 {
+    position: absolute;
+    top: 2660px;
+    right: 62.9%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description4 {
+    position: absolute;
+    top: 2660px;
+    right: 47.6%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description5 {
+    position: absolute;
+    top: 2660px;
+    right: 32.9%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description6 {
+    position: absolute;
+    top: 2660px;
+    right: 18.1%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.description7 {
+    position: absolute;
+    top: 2660px;
+    right: 2.1%;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+.html_img{
+    position: absolute;
+    top: 2580px;
+    right: 91.5%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.css_img{
+    position: absolute;
+    top: 2580px;
+    right: 76.5%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.python_img{
+    position: absolute;
+    top: 2570px;
+    right: 61.5%;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.sqlite_img{
+    position: absolute;
+    top: 2575px;
+    right: 45.9%;
+    width: 95px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.git_img{
+    position: absolute;
+    top: 2565px;
+    right: 29.5%;
+    width: 115px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.linux_img{
+    position: absolute;
+    top: 2575px;
+    right: 16.5%;
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.microsoft_img{
+    position: absolute;
+    top: 2590px;
+    right: 2.5%;
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+.babyabel_img {
+    position: absolute;
+    top: 750px;
+    right: 125px;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    z-index: 1;
+}
+.proj1_img {
+    position: absolute;
+    top: 1575px;
+    left: 125px;
+    width: 450px;
+    border-radius: 20px;
+    rotate: 7deg;
+    object-fit: cover;
+    z-index: 3;
+}
+.proj2_img {
+    position: absolute;
+    top: 1700px;
+    left: 25px;
+    width: 350px;
+    border-radius: 20px;
+    rotate: -9deg;
+    object-fit: cover;
+    z-index: 2;
+}
+.proj3_img {
+    position: absolute;
+    top: 1425px;
+    left: 15px;
+    width: 400px;
+    border-radius: 20px;
+    rotate: -5deg;
+    object-fit: cover;
+    z-index: 4;
+}
+.abel_img {
+    position: absolute;
+    right: 425px;
+    top: 85px;
+    width: 350px;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    z-index: 0;
+}
+.gmail_img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    position: fixed;
+    top: 15px;
+    left: 85%;
+    filter: brightness(90);
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.gmail_img:hover{
+    transform: scale(1.2);
+}
+.linkedIn_img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: fixed;
+    top: 12.5px;  
+    left: 79.4%;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.linkedIn_img:hover{
+    transform: scale(1.2);
+}
+.github_img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    position: fixed;
+    top: 14px; 
+    left: 75%; 
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.github_img:hover{
+    transform: scale(1.2);
+}
+.CV {
+    font-size: 22px;
+    object-fit: cover;
+    position: fixed;
+    top: 16px; 
+    left: 90.1%; 
+    z-index: 10;
+    text-decoration: none;
+    font-family: 'Arial Black';
+    color: whitesmoke;
+    transition: transform 0.5s;
+}
+.CV:hover{
+    transform: scale(1.2);
+}
+
